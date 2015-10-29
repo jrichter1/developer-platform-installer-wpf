@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+	x:Class="wpf_installer.Page4" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Page4">
+	<Grid>
+		<Canvas
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="-8,-8.19999999999999,-8,-7.80000000000001"
+			Background="#FFFFFFFF">
+			<Image
+				Height="64"
+				Width="389"
+				Canvas.Top="8"
+				Canvas.Left="8"
+				VerticalAlignment="Stretch"
+				Source="Resources\status.jpg" />
+			<Button
+				Canvas.Left="320"
+				Canvas.Top="153"
+				Height="78"
+				Width="294"
+				Background="#FF3399FF"
+				BorderBrush="{x:Null}"
+				Foreground="#FFFFFFFF"
+				Content="Done"
+				FontSize="50"
+				x:Name="button1"
+				Click="button1_Click" />
+		</Canvas>
+	</Grid>
+</Page>
