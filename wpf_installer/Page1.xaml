@@ -29,20 +29,20 @@
 				Foreground="#FF000000"
 				Canvas.Right="NaN"
 				AutoWordSelection="True"
-				Text=""
 				Canvas.Top="114"
 				Width="245"
-				GotFocus="login_GotFocus"/>
+				GotFocus="login_GotFocus"
+				Text="Red Hat login" />
 			<PasswordBox
 				Name="password"
 				Padding="5,0,0,0"
 				Height="28"
 				Canvas.Left="62"
 				BorderBrush="#FF000000"
-				Password=""
 				VerticalContentAlignment="Center"
 				Canvas.Top="160"
-				Width="245" />
+				Width="245"
+				Password="password" />
 			<Button
 				Canvas.Left="62"
 				Width="92"
